@@ -3,7 +3,7 @@
     'name': 'POS Payment Ref',
     'version': '10.0.1.0.0',
     'summary': """Allow users to add narration of payment ref from the POS """,
-    'category': 'Point Of Sale',
+    'category': 'Point of Sale',
     'license': 'LGPL-3',
     'author': "Knacktechs Solutions",
     'website': "http://knacktechs.com/",
@@ -13,8 +13,7 @@
         'views/account_journal_view.xml',
         'views/pos_order_view.xml',
     ],
-    'images': [
-    ],
+    'images': ['static/description/log_img.png'],
     'installable': True,
     'application': True,
     'qweb': ['static/src/xml/pos_payment_ref.xml'],
